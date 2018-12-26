@@ -1,14 +1,5 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm">
-      <app-left-navbar></app-left-navbar>
-    </div>
-    <div class="col-sm">
-      <app-header-navbar></app-header-navbar>
-    </div>
-    <div class="col-sm">
-      <app-right-navbar></app-right-navbar>
-    </div>
-  </div>
+<app-header-navbar></app-header-navbar>
+<div class="container">
+  <ng-content></ng-content>
 </div>
 <router-outlet></router-outlet>
