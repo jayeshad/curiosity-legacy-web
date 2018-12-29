@@ -6,7 +6,6 @@ import { HeaderNavbarComponent } from './layout/header-navbar/headernavbar.compo
 import { LeftNavbarComponent } from './layout/left-navbar/left-navbar.component';
 import { RightNavbarComponent } from './layout/right-navbar/right-navbar.component';
 import { FooterComponent } from './layout/footer/footer.component';
-import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,8 +16,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    NgbModule.forRoot()
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
